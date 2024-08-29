@@ -4,7 +4,7 @@ import {
   GymsRepository,
 } from '@/repositories/gyms-repository'
 import { randomUUID } from 'node:crypto'
-import { getDistanceBetweenCoordinates } from '@/utilis/get-distant-between-coordinates'
+import { getDistanceBetweenCoordinates } from '@/utils/get-distant-between-coordinates'
 
 export class InMemoryGymsRepository implements GymsRepository {
   public items: Gym[] = []
