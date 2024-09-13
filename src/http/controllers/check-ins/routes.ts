@@ -5,7 +5,7 @@ import { verifyJwt } from '@/http/middlewares/verify-jwt'
 import { create } from './create-controller'
 import { validate } from './validate-controller'
 import { history } from './history-controller'
-import { metrics } from './metrics'
+import { metrics } from './metrics-controller'
 import { verifyUserRole } from '@/http/middlewares/verify-user-role'
 
 export async function checkInsRoutes(app: FastifyInstance) {
